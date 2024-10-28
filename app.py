@@ -54,4 +54,4 @@ def booking():
     return render_template('booking.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)  # Mantenha o debug como True durante o desenvolvimento
